@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab 2: JavaScript Hello World</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+	console.log("Madhu Jagdale - mjagdale@hawk.iit.edu - Lab 2");	
+	var username = prompt("What is your Name?");
+
+    if(username == undefined || username == '' || username == null || username.trim() == '')
+	{
+		alert("Hello World! You did not enter a name!")
+		console.log("Hello World! You did not enter a name!");
+    } else
+	{
+		alert("Hello "+ username + "!");
+		console.log("Hello "+ username);
+        console.log("Your name has " + username.length + " characters");   
+     }
+	</script>
+</body>
+</html>
